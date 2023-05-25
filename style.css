@@ -2,15 +2,11 @@ html body {
   box-sizing: border-box;
   margin: 0px;
   padding: 50px;
-  background-color: peachpuff;
+  background-color: black;
   background-image: url('background.png');
+  background-position: center;
   font-family: 'Courier New', Courier, monospace;
   color: white;
-}
-
-.hero {
-  display: flex;
-  padding: 0px 30px;
 }
 
 nav {
@@ -26,6 +22,7 @@ nav ul {
 
 .logo {
   width: 50px;
+  filter: invert(1);
 }
 
 nav li {
@@ -38,7 +35,7 @@ nav li {
   display: flex;
   justify-content: space-between;
   gap: 20vw;
-  margin: 10vh;
+  margin: 10vh ovw;
 }
 
 footer ul {

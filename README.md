@@ -1,1 +1,1 @@
-# blog example for start of my WBS web dev bootcamp
+# blog example for the start of my WBS Full-stack web & app development bootcamp
