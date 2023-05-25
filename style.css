@@ -1,0 +1,53 @@
+html body {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 50px;
+  background-color: peachpuff;
+  background-image: url('background.png');
+  font-family: 'Courier New', Courier, monospace;
+  color: white;
+}
+
+.hero {
+  display: flex;
+  padding: 0px 30px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.logo {
+  width: 50px;
+}
+
+nav li {
+  display: flex;
+  text-decoration: none;
+  padding: 30px;
+}
+
+.blog-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 20vw;
+  margin: 10vh;
+}
+
+footer ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer li {
+  display: flex;
+  text-decoration: none;
+  padding: 30px;
+}

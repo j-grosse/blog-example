@@ -1,3 +1,1 @@
-# bootcamp-web-dev
-
-Projects from my Full-Stack Web &amp; App Development Bootcamp
+# blog example for start of my WBS web dev bootcamp
