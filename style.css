@@ -78,8 +78,8 @@ main {
   flex-direction: column;
   justify-content: space-between;
   flex-wrap: wrap;
-  overflow-y: hidden;
-  width: 90%;
+  /* overflow-y: hidden; */
+  width: 95%;
   color: #e5e6e6;
   text-align: justify;
   border: var(--border);
@@ -102,8 +102,9 @@ main h5 {
   text-align: end;
 }
 
-.blog-content {
+.main-content {
   display: flex;
+  flex-direction: column;
   gap: 3rem;
   padding: 2rem;
   border: var(--border);
@@ -118,7 +119,6 @@ main h5 {
 aside {
   font-size: 0.8rem;
   text-align: left;
-
 }
 
 /*************** footer ***************/
@@ -144,4 +144,15 @@ footer li {
   text-decoration: none;
   padding: 0 1rem;
   border: var(--border);
+}
+
+@media screen and (min-width: 600px) {
+  .main-content {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    padding: 2rem;
+    border: var(--border);
+    background: rgba(5, 25, 35, 0.5);
+  }
 }
