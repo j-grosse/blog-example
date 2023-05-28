@@ -32,7 +32,7 @@ a {
   color: inherit;
 }
 
-/*** header ***/
+/*************** header ***************/
 
 header {
   width: 90%;
@@ -43,8 +43,9 @@ header {
   display: flex;
   filter: invert(1);
   transform: scaleX(-1);
-  padding: 20px;
-  height: 3rem;
+  margin-left: 45px;
+  margin-top: 15px;
+  height: 60px;
   border: var(--border);
 }
 
@@ -70,7 +71,7 @@ nav li {
   border: var(--border);
 }
 
-/*** main ***/
+/*************** main ***************/
 
 main {
   display: flex;
@@ -88,6 +89,13 @@ main img {
   display: flex;
   margin: 0 auto;
   margin-bottom: 2rem;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+}
+
+main h2 {
+  text-align: initial;
 }
 
 main h5 {
@@ -96,17 +104,24 @@ main h5 {
 
 .blog-content {
   display: flex;
-  gap: 2rem;
+  gap: 3rem;
   padding: 2rem;
   border: var(--border);
   background: rgba(5, 25, 35, 0.5);
 }
 
-.profile {
+.profile-image {
   border-radius: 100%;
-  height: 10rem;
+  width: 7rem;
+  max-width: 100%;
 }
-/*** footer ***/
+aside {
+  font-size: 0.8rem;
+  text-align: left;
+
+}
+
+/*************** footer ***************/
 
 footer {
   margin: 2rem 0;
